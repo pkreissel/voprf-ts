@@ -16,9 +16,9 @@
     "types": "./lib/esm/src/index.d.ts",
     "exports": {
         ".": {
-            "default": "./lib/cjs/src/index.js",
             "require": "./lib/cjs/src/index.js",
-            "import": "./lib/esm/src/index.js"
+            "import": "./lib/esm/src/index.js",
+            "default": "./lib/cjs/src/index.js"
         },
         "./crypto-noble": {
             "require": "./lib/cjs/src/cryptoNoble.js",
